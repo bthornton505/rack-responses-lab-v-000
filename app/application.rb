@@ -6,7 +6,9 @@ class Application
     if now >= 12
       resp.write "Good Afternoon!"
     else 
-      resp.write ""
+      resp.write "Good Morning!"
+    end 
+    
   end 
   
 end 
